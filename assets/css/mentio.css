@@ -1,0 +1,136 @@
+/* line 10, ../sass/mentio.scss */
+.scroller1 {
+  width: 100%;
+  margin-top: -20px;
+  background-color: white; }
+  /* line 15, ../sass/mentio.scss */
+  .scroller1 h2 {
+    font-family: Montserrat, sans-serif;
+    color: #202429;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 180%; }
+
+/* line 27, ../sass/mentio.scss */
+.scroller2 {
+  margin-top: 50px;
+  width: 100%;
+  background-color: white; }
+  /* line 32, ../sass/mentio.scss */
+  .scroller2 h2 {
+    padding-top: 20px;
+    color: #202429;
+    font-family: Bitter, serif; }
+  /* line 38, ../sass/mentio.scss */
+  .scroller2 p {
+    font-family: Montserrat, sans-serif;
+    color: #202429;
+    font-size: 1.0em;
+    line-height: 160%; }
+
+/* line 46, ../sass/mentio.scss */
+.container {
+  width: 100%; }
+
+/* line 50, ../sass/mentio.scss */
+.centeredImage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block; }
+
+/* line 57, ../sass/mentio.scss */
+.footer {
+  clear: left;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 65, ../sass/mentio.scss */
+.footer a:link, :visited {
+  color: #202429;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/* line 71, ../sass/mentio.scss */
+.footer a:hover {
+  color: #00a682;
+  text-decoration: none; }
+
+/* line 76, ../sass/mentio.scss */
+.appicon {
+  margin-top: -5px;
+  margin-right: 5px;
+  text-align: center; }
+
+/* line 82, ../sass/mentio.scss */
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 160%;
+  font-size: 3.0em;
+  color: #202429;
+  font-weight: bolder;
+  font-family: Bitter, serif; }
+
+/* line 92, ../sass/mentio.scss */
+h2 {
+  font-family: Montserrat, sans-serif; }
+
+/* line 98, ../sass/mentio.scss */
+.navbar-brand a {
+  font-family: Montserrat, sans-serif;
+  color: black; }
+/* line 103, ../sass/mentio.scss */
+.navbar-brand a:hover {
+  color: #00a682;
+  text-decoration: none; }
+
+/* line 110, ../sass/mentio.scss */
+.navbar-nav {
+  padding-left: 50px;
+  font-family: Montserrat, sans-serif;
+  text-align: right;
+  color: black; }
+  /* line 116, ../sass/mentio.scss */
+  .navbar-nav a {
+    color: black; }
+  /* line 120, ../sass/mentio.scss */
+  .navbar-nav a:hover {
+    color: #00a682;
+    text-decoration: none;
+    background-color: rgba(238, 238, 238, 0.37); }
+
+/* line 128, ../sass/mentio.scss */
+p {
+  font-family: Bitter, serif; }
+
+/* line 132, ../sass/mentio.scss */
+em {
+  font-weight: bold;
+  color: #00A682; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 139, ../sass/mentio.scss */
+  .firstText {
+    font-size: 2.0em; } }
+@media only screen and (max-width: 992px) {
+  /* line 145, ../sass/mentio.scss */
+  h1 {
+    font-size: 2.0em; }
+
+  /* line 149, ../sass/mentio.scss */
+  .firstText {
+    font-size: 1.6em; }
+
+  /* line 153, ../sass/mentio.scss */
+  .headline {
+    font-size: 3em; } }
+@media only screen and (max-width: 768px) {
+  /* line 160, ../sass/mentio.scss */
+  h1 {
+    margin-top: 0px;
+    padding-top: 10px; } }
