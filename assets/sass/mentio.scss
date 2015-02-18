@@ -58,7 +58,7 @@ $font-heading : Montserrat, sans-serif ;
 	clear:left;
 	text-align: center;
 	background-color: $white;
-	padding-top: 10px;
+	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
@@ -82,7 +82,7 @@ $font-heading : Montserrat, sans-serif ;
 h1 {
 	padding-top:50px;
 	text-align:center;
-	line-height:160%;
+	line-height:150%;
 	font-size:3.0em;
 	color:$primaryColor;
 	font-weight: bolder;
@@ -91,6 +91,10 @@ h1 {
 
 h2 {
 	font-family: $font-heading;
+}
+
+.heightPBox {
+	height:70px;
 }
 
 .navbar-brand {
@@ -134,11 +138,16 @@ em {
 	color:#00A682;
 }
 
+.catchHeaer {
+	padding-right:100px;
+}
+
 @media only screen and (max-width: 1200px) {
 
 	.firstText {
 		font-size: 2.0em;
 	}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -152,7 +161,8 @@ em {
 
 	.headline {
 		font-size: 3em;
-	}	
+	}
+	
 }
 
 
@@ -161,5 +171,13 @@ em {
 		margin-top:0px;
 		padding-top: 10px;
 	}
+
+		.catchHeaer {
+		padding-right:15px;
+	}
+
+	.heightPBox {
+	height:30px;
+}
 	
 }  
