@@ -18,7 +18,9 @@ body {
 .scroller1 {
 	width:100%;
 	margin-top:-20px;
-	
+	max-width: 960px;
+	margin-left:auto;
+	margin-right: auto;
 	h2 {
 		font-family: $font-heading;
 		color: $primaryColor;
@@ -32,10 +34,12 @@ body {
 }
 
 .scroller2 {
-	margin-top: 50px;
 	width:100%;
 	background-color:$backgroundColor;
-	
+	max-width: 960px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 50px;
 	h2 {
 		padding-top:20px;
 		color:$primaryColor;
@@ -47,6 +51,9 @@ body {
 		color:$primaryColor;
 		font-size:1.0em;
 		line-height:160%;
+		max-width: 280px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -65,7 +72,7 @@ body {
 	clear:left;
 	text-align: center;
 	background-color: $backgroundColor;
-	padding-top: 50+px;
+	padding-top: 100px;
 	padding-bottom: 10px;
 }
 
