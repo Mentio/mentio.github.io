@@ -1,9 +1,8 @@
 .top {
-  /* Rectangle 1: */
-  background-image: linear-gradient(-180deg, rgba(20, 184, 214, 0.33) 0%, rgba(156, 156, 156, 0.32) 100%); }
+  background-image: linear-gradient(-180deg, rgba(0, 219, 166, 0.15) 0%, rgba(250, 255, 251, 0) 100%); }
 
 body {
-  background-color: #F4F8F5; }
+  background-color: #FAFFFB; }
 
 .scroller1 {
   width: 100%;
@@ -22,7 +21,7 @@ body {
 
 .scroller2 {
   width: 100%;
-  background-color: #F4F8F5;
+  background-color: #FAFFFB;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +51,7 @@ body {
 .footer {
   clear: left;
   text-align: center;
-  background-color: #F4F8F5;
+  background-color: #FAFFFB;
   padding-top: 100px;
   padding-bottom: 10px; }
 
